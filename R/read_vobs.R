@@ -27,5 +27,5 @@ read_vobs <- function(file_name, missing_value = -99, ...) {
   if (is.null(v_data)) {
     return(list(synop = empty_data, temp = empty_data))
   }
-
+  return (v_data)
 }
